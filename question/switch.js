@@ -29,6 +29,7 @@ switch (day) {
 }
 // Output the message to the console
 console.log(message);
+document.getElementById("demo").innerHTML =message;
 
 
 
