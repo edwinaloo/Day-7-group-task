@@ -8,7 +8,7 @@ day = day.toLowerCase();
 
 // Declare a variable to store the output message
 
-let message;
+ let message;
 
 // Use a switch statement to check the input
 
@@ -25,12 +25,10 @@ switch (day) {
     message = "Today is a weekend day";
     break;
   default:
-    message = "Invalid input";
+    message = "Invalid input"; 
 }
 // Output the message to the console
 console.log(message);
-
-
 
 
 
